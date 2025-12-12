@@ -31,4 +31,3 @@ yyy
 		```
 
 流程簡述：建立 feature 分支 -> 提交變更 -> 在 GitHub 開 PR 並合併到 main -> 若合併有問題，使用 `git revert -m 1 <merge-commit>` 來撤銷合併（會在 main 上再產生一個 revert 提交）。
-
